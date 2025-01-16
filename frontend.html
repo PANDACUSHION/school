@@ -1,16 +1,99 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Project</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Welcome to Nepal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #003f7f;
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('school-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 3em 1em;
+        }
+        .hero h2 {
+            font-size: 2.2em;
+            margin-bottom: 0.5em;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 2em;
+            text-align: center;
+        }
+        .content h3 {
+            font-size: 1.8em;
+            color: #0056b3;
+        }
+        .content p {
+            font-size: 1.1em;
+            color: #333;
+        }
+        footer {
+            background-color: #003f7f;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome to Nepal</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#programs">Programs</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Empowering Students for a Bright Future</h2>
+        <p>Your journey to excellence starts here.</p>
+    </section>
+    <section class="content">
+        <h3>About Our School</h3>
+        <p>Our mission is to provide a nurturing and challenging environment where students excel academically, socially, and personally.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 [School Name]. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
-
-
